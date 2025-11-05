@@ -15,7 +15,12 @@
                 <span class="brand-icon">🐾</span>
                 <span class="brand-name">PawSteps</span>
             </div>
-            <ul class="nav-menu">
+            <button class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation" aria-label="Toggle navigation">
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+                <span class="nav-toggle-bar"></span>
+            </button>
+            <ul id="primary-navigation" class="nav-menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#pricing">Pricing</a></li>
@@ -30,7 +35,7 @@
     <section id="home" class="hero">
         <div class="hero-bg"></div>
         <div class="container hero-content">
-            <div class="hero-text">
+            <div class="hero-text animate-on-scroll">
                 <div class="hero-badge">🏆 London's #1 Rated Dog Walking Service</div>
                 <h1 class="hero-title">Your Dog's Daily Adventure Awaits</h1>
                 <p class="hero-subtitle">Professional, reliable, and loving care for your furry family member. GPS-tracked walks, insured handlers, and tails wagging guaranteed.</p>
@@ -53,7 +58,7 @@
                     </div>
                 </div>
             </div>
-            <div class="hero-image">
+            <div class="hero-image animate-on-scroll">
                 <img src="https://image.pollinations.ai/prompt/happy-golden-retriever-walking-in-sunny-park-professional-photography-vibrant-colors-joyful-expression-4k-realistic?width=800&height=900&nologo=true" alt="Happy dog on a walk" loading="eager">
             </div>
         </div>
@@ -62,7 +67,7 @@
     <!-- Trust Bar -->
     <section class="trust-bar">
         <div class="container">
-            <div class="trust-items">
+            <div class="trust-items animate-on-scroll">
                 <div class="trust-item">
                     <span class="trust-icon">🛡️</span>
                     <span>Fully Insured</span>
@@ -90,12 +95,12 @@
     <!-- Services Section -->
     <section id="services" class="section">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header animate-on-scroll">
                 <h2 class="section-title">Tailored Walking Services</h2>
                 <p class="section-subtitle">Every dog is unique. Choose the perfect walk for your pup's personality and needs.</p>
             </div>
             <div class="services-grid">
-                <div class="service-card">
+                <div class="service-card animate-on-scroll">
                     <div class="service-icon">🐕</div>
                     <h3>Solo Walks</h3>
                     <p>One-on-one attention for your dog. Perfect for training, nervous dogs, or those who prefer their own company.</p>
@@ -106,7 +111,7 @@
                     </ul>
                     <a href="#pricing" class="btn btn-outline">From £18</a>
                 </div>
-                <div class="service-card featured">
+                <div class="service-card featured animate-on-scroll">
                     <div class="popular-badge">Most Popular</div>
                     <div class="service-icon">🐕‍🦺</div>
                     <h3>Group Adventures</h3>
@@ -118,7 +123,7 @@
                     </ul>
                     <a href="#pricing" class="btn btn-primary">From £15</a>
                 </div>
-                <div class="service-card">
+                <div class="service-card animate-on-scroll">
                     <div class="service-icon">🐾</div>
                     <h3>Puppy Visits</h3>
                     <p>Special care for puppies under 6 months. Short, gentle walks with potty breaks and cuddles.</p>
@@ -129,7 +134,7 @@
                     </ul>
                     <a href="#pricing" class="btn btn-outline">From £12</a>
                 </div>
-                <div class="service-card">
+                <div class="service-card animate-on-scroll">
                     <div class="service-icon">⛰️</div>
                     <h3>Adventure Hikes</h3>
                     <p>Weekend adventures to countryside trails, beaches, and nature reserves.</p>
@@ -140,7 +145,7 @@
                     </ul>
                     <a href="#pricing" class="btn btn-outline">From £45</a>
                 </div>
-                <div class="service-card">
+                <div class="service-card animate-on-scroll">
                     <div class="service-icon">🏠</div>
                     <h3>Drop-In Visits</h3>
                     <p>Quick check-ins for feeding, medication, or company when you can't be home.</p>
@@ -151,7 +156,7 @@
                     </ul>
                     <a href="#pricing" class="btn btn-outline">From £10</a>
                 </div>
-                <div class="service-card">
+                <div class="service-card animate-on-scroll">
                     <div class="service-icon">🚗</div>
                     <h3>Pet Taxi</h3>
                     <p>Safe transport to vet appointments, grooming, or boarding facilities.</p>
@@ -169,12 +174,12 @@
     <!-- Pricing Section -->
     <section id="pricing" class="section section-alt">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header animate-on-scroll">
                 <h2 class="section-title">Simple, Transparent Pricing</h2>
                 <p class="section-subtitle">No hidden fees. Book one-off walks or save with our flexible packages.</p>
             </div>
             <div class="pricing-grid">
-                <div class="price-card">
+                <div class="price-card animate-on-scroll">
                     <h3 class="price-title">Group Walk</h3>
                     <div class="price-amount">
                         <span class="price-currency">£</span>
@@ -190,7 +195,7 @@
                     </ul>
                     <a href="#contact" class="btn btn-outline btn-block">Get Started</a>
                 </div>
-                <div class="price-card featured">
+                <div class="price-card featured animate-on-scroll">
                     <div class="popular-badge">Best Value</div>
                     <h3 class="price-title">Solo Walk</h3>
                     <div class="price-amount">
@@ -208,7 +213,7 @@
                     </ul>
                     <a href="#contact" class="btn btn-primary btn-block">Book Now</a>
                 </div>
-                <div class="price-card">
+                <div class="price-card animate-on-scroll">
                     <div class="save-badge">Save 15%</div>
                     <h3 class="price-title">Monthly Pass</h3>
                     <div class="price-amount">
@@ -233,27 +238,27 @@
     <!-- Gallery Section -->
     <section id="gallery" class="section">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header animate-on-scroll">
                 <h2 class="section-title">Happy Tails & Adventure Trails</h2>
                 <p class="section-subtitle">See the joy we bring to every walk</p>
             </div>
             <div class="gallery-grid">
-                <div class="gallery-item">
+                <div class="gallery-item animate-on-scroll">
                     <img src="https://image.pollinations.ai/prompt/happy-labrador-retriever-running-in-green-park-sunny-day-professional-photography-joyful-expression-4k-realistic?width=600&height=600&nologo=true" alt="Happy dog in park" loading="lazy">
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item animate-on-scroll">
                     <img src="https://image.pollinations.ai/prompt/group-of-dogs-playing-together-in-park-diverse-breeds-professional-photography-vibrant-colors-4k-realistic?width=600&height=600&nologo=true" alt="Dogs playing together" loading="lazy">
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item animate-on-scroll">
                     <img src="https://image.pollinations.ai/prompt/beagle-dog-on-forest-trail-autumn-leaves-professional-photography-scenic-nature-4k-realistic?width=600&height=600&nologo=true" alt="Dog on forest trail" loading="lazy">
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item animate-on-scroll">
                     <img src="https://image.pollinations.ai/prompt/corgi-puppy-walking-on-leash-city-park-professional-photography-cute-adorable-4k-realistic?width=600&height=600&nologo=true" alt="Puppy on walk" loading="lazy">
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item animate-on-scroll">
                     <img src="https://image.pollinations.ai/prompt/husky-dog-by-lake-water-reflection-professional-photography-beautiful-scenery-4k-realistic?width=600&height=600&nologo=true" alt="Dog by lake" loading="lazy">
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item animate-on-scroll">
                     <img src="https://image.pollinations.ai/prompt/golden-retriever-with-ball-in-mouth-beach-sunset-professional-photography-warm-colors-4k-realistic?width=600&height=600&nologo=true" alt="Dog with ball on beach" loading="lazy">
                 </div>
             </div>
@@ -263,12 +268,12 @@
     <!-- Testimonials Section -->
     <section id="testimonials" class="section section-alt">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header animate-on-scroll">
                 <h2 class="section-title">What Our Pack Parents Say</h2>
                 <p class="section-subtitle">Join hundreds of happy dogs and their owners</p>
             </div>
             <div class="testimonials-grid">
-                <div class="testimonial-card">
+                <div class="testimonial-card animate-on-scroll">
                     <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
                     <p class="testimonial-text">"PawSteps has been a lifesaver! My rescue dog Max was so anxious, but Sarah has been incredible with him. He actually gets excited for walks now. The GPS tracking gives me peace of mind, and the photos make my day!"</p>
                     <div class="testimonial-author">
@@ -279,7 +284,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="testimonial-card">
+                <div class="testimonial-card animate-on-scroll">
                     <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
                     <p class="testimonial-text">"Professional, reliable, and genuinely care about the dogs. Our Labrador Luna looks forward to her group walks every day. The team sends great updates and photos. Best decision we made for her!"</p>
                     <div class="testimonial-author">
@@ -290,7 +295,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="testimonial-card">
+                <div class="testimonial-card animate-on-scroll">
                     <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
                     <p class="testimonial-text">"I work long hours and felt so guilty about Bella being home alone. PawSteps changed everything. The solo walks are perfect for her energy level, and I love getting the GPS route at the end. Highly recommend!"</p>
                     <div class="testimonial-author">
@@ -308,7 +313,7 @@
     <!-- CTA Section -->
     <section id="contact" class="cta-section">
         <div class="container">
-            <div class="cta-content">
+            <div class="cta-content animate-on-scroll">
                 <h2 class="cta-title">Ready to Give Your Dog the Best Walks?</h2>
                 <p class="cta-text">Book your first walk today and join London's happiest pack. New clients get 20% off their first booking!</p>
                 <div class="cta-buttons">
